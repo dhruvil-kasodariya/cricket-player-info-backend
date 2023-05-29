@@ -7,7 +7,7 @@ const methodOverride = require("method-override");
 const authRoute = require("./routes/auth");
 const cricketTeamNameRoute = require("./routes/cricketTeamName");
 const teamsPlayersRoute = require("./routes/TeamsPlayers");
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 4000;
 
 const app = express();
 
